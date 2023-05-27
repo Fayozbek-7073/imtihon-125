@@ -1,0 +1,105 @@
+/* .boydin{
+    background-color: rgb(20, 21, 26);
+    color: #ffffff;
+    box-shadow: all 1px 4px 6px rgba(248, 239, 239, 0.056);
+} */
+
+body{
+    width: 1440px;
+    margin: auto;
+    color: #7d7b7b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    max-width: 1440px;
+    height: 80px;
+    background: #ffffff;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.0562443);
+}
+
+nav{
+    align-items: center;
+    height: 80px;
+    justify-content:space-between;
+    padding: 5px;
+}
+.monim{
+    width: 15px;
+    height: 14px;
+}
+.moon{
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.where{
+    font-size: 24px;
+    color: #515151;
+}
+.ser-filter{
+    max-width: 1440px;
+    height: 55px;
+    margin-top: 40px;
+    align-items: center;
+    height: 80px;
+    justify-content:space-between;
+    padding: 5px;
+}
+.mysearch{
+    width: 480px;
+    height: 46px;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 13px 18px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+}
+.flags{
+    width: 200px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 13px 18px rgba(0, 0, 0, 0.0532439);
+}
+.flag-card{
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+
+}
+.box-card{
+    width: 260px;
+    height: 335px;
+    margin-top: 150px;
+    box-shadow: 5px 7px 17px 10px rgba(0, 0, 0, 0.059);
+    border-radius: 5px;
+    border: solid 1px #e5dede;
+}
+.imgs{ 
+    width: 100%;
+    height: 40%;
+}
+.font{
+    font-size: 17px;
+}
+.top{
+    margin-top: 21px;
+}
+.top-el{
+    margin-top: 12px;
+}
+.car-value{
+    padding: 5px;
+}
+ 
+

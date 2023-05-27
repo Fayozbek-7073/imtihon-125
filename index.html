@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body class="boydin">
+
+
+    <header class="header nightt">
+        <nav class="flex nightt">
+            <div class="where">Where in the world?</div>
+            <button class="moon" onclick="myfunction()"><img class="monim" src="./img/9057227_moon_icon.png" alt="F"> Dark Mode</button>
+        </nav>
+        <div class="ser-filter flex">
+            <input class="mysearch" id="mysearchId" onkeyup="myFunctionSearch()" type="text" placeholder="Search for a country…">
+            <select class="flags nightt">
+                <option value="Filter by Region ">Filter by Region</option>
+                <option class="salact_value-africa" value="Africa">Africa</option>
+                <option class="salact_value-america" value="America">America</option>
+                <option class="salact_value-asia" value="Asia">Asia</option>
+                <option class="salact_value-evropa" value="Europe">Europe</option>
+                <option class="salact_value-oceania" value="Oceania">Oceania</option>
+            </select>
+        </div>
+    </header>
+
+    <aside class="flag-card flex" id="flags">
+
+        <!-- <div class="box-card">
+            <img class="imgs" src="./img/1280px-Flag_of_Germany.svg.png" alt="F">
+            <div class="car-value">
+                <h2 class="flag-name top">Germany</h2>
+                <div class="mar-population top flex">
+                    <p class="population font">Population :</p>
+                    <p class="population-id">81,770,900</p>
+                </div>
+                <div class="mar-population top-el flex">
+                    <p class="region font">Region :</p>
+                    <p class="region-id">Europe</p>
+                </div>
+                <div class="mar-population top-el flex">
+                    <p class="capital font">Capital :</p>
+                    <p class="capital-id">Berlin</p>
+                </div>
+            </div>
+        </div> -->
+
+    </aside>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
